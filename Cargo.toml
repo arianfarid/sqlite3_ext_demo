@@ -8,6 +8,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 sqlite3_ext = { version = "0.2.0", features = ["static"] }
+libsqlite3-sys = { version = "0.25", features = ["bundled"] }
 
 [patch.crates-io]
 sqlite3_ext = { git = "https://github.com/arianfarid/sqlite3_ext",
