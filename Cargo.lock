@@ -212,8 +212,9 @@ checksum = "0fda2ff0d084019ba4d7c6f371c95d8fd75ce3524c3cb8fb653a3023f6323e64"
 
 [[package]]
 name = "sqlite3_ext"
-version = "0.2.0"
-source = "git+https://github.com/arianfarid/sqlite3_ext?branch=fix%2Fwindows-path-to-cstring#dd5a68e4977a9debeb2aeb95b8b6e095f1d86e2a"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "944e0bfa54337e3bd468f0b1f780b259a39ca82c930b8c0724a7aba41cf4c74f"
 dependencies = [
  "bitflags 1.3.2",
  "fallible-iterator",
@@ -239,7 +240,8 @@ dependencies = [
 [[package]]
 name = "sqlite3_ext_macro"
 version = "0.1.0"
-source = "git+https://github.com/arianfarid/sqlite3_ext?branch=fix%2Fwindows-path-to-cstring#dd5a68e4977a9debeb2aeb95b8b6e095f1d86e2a"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b6ffb10e1a709864af4e8f6f08e23aae0eaebb81be9e3ae77e6052b6781c469d"
 dependencies = [
  "convert_case",
  "proc-macro2",
